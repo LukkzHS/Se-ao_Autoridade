@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.quem-somos-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  width: auto;
+  box-sizing: border-box;
+  padding: 100px 60px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.titulo-subtitulo {
+  position: relative;
+  text-align: center;
+  width: auto;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+
+.quem-somos {
+  position: absolute;
+  top: 25px;
+  left: 442.71px;
+  color: rgba(0, 113, 51, 1);
+  font-size: 48px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  text-align: center;
+  border-bottom: 2px solid black; 
+  padding-bottom: 10px; 
+  width: fit-content; 
+  margin: 0 auto; 
+}
+
+
+.conhe-aum-pouco-de-nossa {
+  position: relative;
+  color: #000;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  width: 1200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 1440px;
+  height: 200px;
+  box-sizing: border-box;
+  gap: 20px;
+}
+
+.texto-principal {
+  flex: 1;
+  color: rgba(0, 0, 0, 1);
+  font-size: 28px;
+  line-height: 120%;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  width: 1400px;
+}
+
+.imagem-container {
+  display: flex;
+  align-items: center;
+}
+
+.imagem-precision {
+  position: relative;
+  width: 350px;
+  height: 100%;
+}
